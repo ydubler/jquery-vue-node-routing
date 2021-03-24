@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
@@ -14,9 +10,7 @@ export default {
   components: {},
   mounted() {
     this.$nextTick(function () {
-      $(document).ready(function () {
-        alert("DOM Loaded2!");
-      });
+      // console.log("This is called when everything has been loaded.")
     });
   },
 };

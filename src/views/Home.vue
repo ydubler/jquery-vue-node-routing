@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="public/images/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <img alt="jQuery logo" src="public/images/jquery-logo.png" />
+    <jQueryRefresher />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "../components/HelloWorld.vue";
+import jQueryRefresher from "../components/jQueryRefresher.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    jQueryRefresher,
   },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home" class="home">
     <img alt="jQuery logo" src="public/images/jquery-logo.png" />
     <jQueryRefresher />
   </div>
@@ -10,7 +10,7 @@
 import jQueryRefresher from "../components/jQueryRefresher.vue";
 
 export default {
-  name: "Home",
+  name: "home",
   components: {
     jQueryRefresher,
   },

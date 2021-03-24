@@ -41,6 +41,8 @@
         &lt;h3&gt;This is the twelfth h3&lt;/h3&gt;
       </h3>
     </div>
+    <br />
+    <br />
     <button id="button_jQueryAppendH3" style="width: 40%">+ &lt;h3&gt;</button>
     <br />
     <br />
